@@ -30,5 +30,5 @@ class AwesomeAPI < Sinatra::Application
     out
   end
 
-  require_relative 'modules/logger'
+  require_relative 'modules/crypto'
 end
